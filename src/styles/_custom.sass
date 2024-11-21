@@ -3,12 +3,17 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 61%
+    right: 50%
+  &-3
+    animation: float1 2.2s ease-in-out infinite alternate
+    position: absolute
+    top: 8%
+    right: 20%
 
 
 @keyframes float1
@@ -17,3 +22,207 @@
 
   100%
     transform: translateY(0px)
+
+.banner-interno__titulo
+  h2
+    color: #12263F !important
+  .banner-interno__titulo__icono
+    background-color: #12263F
+
+.banner-principal__img
+  padding-top: 1em!important
+  padding-bottom: 0!important
+
+.banner-interno__fondo
+  background-image: url(../assets/curso/portada/fondo_principal_internas.svg)!important
+
+
+.titulo-imagen-izq-1
+  background: rgb(255,246,217)
+  background: -moz-linear-gradient(90deg, rgba(255,246,217,1) 0%, rgba(255,246,217,0) 100%)
+  background: -webkit-linear-gradient(90deg, rgba(255,246,217,1) 0%, rgba(255,246,217,0) 100%)
+  background: linear-gradient(90deg, rgba(255,246,217,1) 0%, rgba(255,246,217,0) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff6d9",endColorstr="#fff6d9",GradientType=1)
+  position: relative
+  color: #12263F
+  display: inline-flex
+  align-items: center
+  padding: 10px 30px
+  padding-left: 50px
+  border-radius: 30px
+  &:before
+    background-image: url(../assets/curso/temas/tema1/img02.png)
+    background-size: cover
+    content: ''
+    width: 49px
+    height: 42px
+    display: block
+    position: absolute
+    left: -10px
+
+.titulo-imagen-izq-2
+  position: relative
+  color: #12263F
+  display: inline-flex
+  align-items: center
+  padding: 10px 30px
+  padding-left: 50px
+  border-radius: 30px
+  &:before
+    background-image: url(../assets/curso/temas/tema1/img03.png)
+    background-size: cover
+    content: ''
+    width: 49px
+    height: 42px
+    display: block
+    position: absolute
+    left: -10px
+
+.bg-white
+  background-color: $white
+
+.bg-beige
+  background-color: #E4E4D9
+  color: #12263F
+
+.bg-gray
+  background-color: #F6F6F6
+  .h1
+    color: #CACAB4
+
+.bg-texture
+  background-image: url(../assets/curso/temas/tema3/img01.jpg)
+  background-size: cover
+
+.bg_texture
+  background-image: url(../assets/curso/temas/tema4/img09.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+
+.bg-amarillo-claro
+  background-color: #FFFBF0
+  .acordion__accion__btn--a
+    background-color: #F89A20
+    font-size: 0.9rem
+  &.acordion__activo
+    background-color: #EAF7F6
+    .acordion__accion__btn--a
+      background-color: #3FB6B2
+
+.numero-tarjeta
+  color: #B1E2E0
+  font-weight: 700
+  font-size: 30px
+  position: absolute
+  right: 20px
+  bottom: 5px
+
+
+.tabs-c__tab
+   border-bottom-color: #3FB6B2!important
+.tabs-c.color-primario .tabs-c__tab--active
+    border-bottom-color: #F89A20 !important
+.tabs-c.color-primario .tabs-c__tab--active:before
+    border-top-color: #F89A20
+
+.tabs-c
+  border-bottom: 0 none
+  &__content-item
+    margin-top: -16px
+  .py-md-4
+    padding-top: 0!important
+
+
+.tarjeta-texto
+  border: solid 2px
+  border-radius: 20px
+  position: relative
+  display: flex
+  justify-content: center
+  align-items: center
+  
+  p
+    margin-bottom: 0
+  &__txt
+    border-radius: 60px
+    width: 90%
+    height: 50px
+    display: flex
+    align-items: center
+    justify-content: center
+    position: absolute
+    left: 50%
+    top: -20px
+    transform: translateX(-50%)
+   
+.azul
+  .tarjeta-texto
+    border-color: $color-acento-contenido
+    &__txt  
+      background-color: $color-acento-contenido
+
+.naranja
+  .tarjeta-texto
+    border-color: $color-adicional-1
+    &__txt  
+      background-color: $color-adicional-1
+
+.verde
+  .tarjeta-texto
+    border-color: $color-secundario
+    &__txt  
+      background-color: $color-secundario
+      p
+        color: white
+
+.amarillo
+  .tarjeta-texto
+    border-color: $color-acento-botones
+    &__txt  
+      background-color: $color-acento-botones
+
+    
+.cajon.color-acento-contenido
+  background-color: #EAF7F6
+
+.color-beige
+  background-color: #FDEAD1
+
+
+.slyder-a__tipo-b
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt
+    // background-color: #3FB6B2
+    border: 0 none
+    background-color: transparent
+  .slyder-a__bullets__item
+    background-color:#FDDCB1
+  .slyder-a__bullets__item--active
+     background-color: #F89A20
+     border: 0 none
+
+
+.titulo-sexto.color-adicional-1
+  border-color: $color-adicional-1
+
+.bullets
+  li
+    display: block
+    padding-left: 0px
+    &:before
+      background: url(../assets/curso/temas/tema5/img04.svg) no-repeat
+      height: 11px
+      width: 11px
+      margin-right: 8px
+      display: inline-block
+      content: ''
+
+
+.slyder-f
+  .fas
+    position: relative
+    &::before
+      font-size: 24px
+//       position: absolute
+//       top: 50%
+//       left: 50%
+//       transform: translate(-50%, -50%)

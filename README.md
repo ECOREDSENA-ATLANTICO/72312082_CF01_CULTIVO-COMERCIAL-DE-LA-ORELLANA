@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-atlantico.github.io/72312082_CF01_CULTIVO-COMERCIAL-DE-LA-ORELLANA/#/](https://ecoredsena-atlantico.github.io/72312082_CF01_CULTIVO-COMERCIAL-DE-LA-ORELLANA/#/)
 
 #
 

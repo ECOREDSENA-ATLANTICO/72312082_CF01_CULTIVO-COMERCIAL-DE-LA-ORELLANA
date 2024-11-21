@@ -5,8 +5,120 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Generalidades de los hongos 
       
+    .row.mb-3
+      .col-12.col-lg-6
+        p.mb-3 Los hongos no pertenecen al reino de los vegetales, estos pertenecen al reino Fungi, ya que no realizan la fotosíntesis pues carecen de clorofila por lo que son considerados organismos heterótrofos; su pared celular contiene generalmente quitina que le da ese resistente revestimiento exterior al cuerpo de los hongos. Estos se asocian en dos grandes grupos micromicetos y macromicetos, dependiendo de su capacidad para formar estructuras visibles con forma definida o cuerpos fructíferos visibles.
+        p.mb-3  Las orellanas u hongo ostra pertenecen al grupo de los macromicetos llamados setas u hongos superiores. 
+      .col-12.col-lg-6.mx-auto
+        img(src='@/assets/curso/temas/tema1/img01.png' alt='Imagen Decorativa')
+
+    .row
+      .col-12.col-md-10.mx-auto
+        div
+          h3.mb-3.titulo-imagen-izq-1 Morfología
+        p.mb-4 Presentan una estructura filamentosa, constituida por una red de filamentos con apariencia de hilos llamados hifas, que forman el cuerpo vegetativo del hongo llamado micelio (similar a las raíces de las plantas). Además, tiene partes como micelio, cuerpos fructíferos y sombrero. 
+      
+        .titulo-sexto.color-adicional-1.mb-4
+          h5 Figura 1.
+          span Partes de los hongos
+
+        figure.mb-5
+          img(src='@/assets/curso/temas/tema1/img05.png', alt='Texto que describa la imagen')
+          figcaption Nota. www3.gobiernodecanarias.org (2017)
+        
+        div
+          h3.mb-3.titulo-imagen-izq-2 Partes de la Orellana
+        p.mb-3 Los hongos orellana, son importantes por su valor ecológico, nutricional y medicinal. Desempeñan un papel esencial en la descomposición de materia orgánica, contribuyendo al reciclaje de nutrientes en los ecosistemas.
+        
+        .titulo-sexto.color-adicional-1.mb-4
+          h5 Figura 2.
+          span Partes de la orellana (Pleurotus ssp).
+
+        ImagenInfografica.color-primario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/img06.png', alt='Texto que describa la imagen')
+              figcaption Nota. El hongo mágico (2017).
+
+          .tarjeta.bg-white.p-3.shadow-sm(x="73.8%" y="46.8%" numero="1")
+            .h5.mb-2 El cuerpo fructífero o esporocarpo:
+            p es una estructura multicelular sobre la que se forman otras estructuras productoras de esporas.
+            span.numero-tarjeta 01
+
+          .tarjeta.bg-white.p-3.shadow-sm(x="51.5%" y="50.4%" numero="2")
+            .h5.mb-2 Estipe, pie o pedúnculo:
+            p.mb-4 es el que sostiene el sombrero. Está conformado por tejido estéril hifal.
+            span.numero-tarjeta 02
+
+          .tarjeta.bg-white.p-3.shadow-sm(x="41.3%" y="24%" numero="3")
+            .h5.mb-2 Himenio o himenóforo:
+            p es el conjunto de láminas y laminillas, es la parte fértil del hongo.
+            span.numero-tarjeta 03
+
+          .tarjeta.bg-white.p-3.shadow-sm(x="58.6%" y="13.5%" numero="4")
+            .h5.mb-2 Laminillas: 
+            p son las que contienen los basidios, y estos a su vez son los que generan las esporas.
+            span.numero-tarjeta 04
+
+          .tarjeta.bg-white.p-3.shadow-sm(x="63.6%" y="66.5%" numero="5")
+            .h5.mb-2 Micelio:
+            p es el conjunto de hifas (filamentos cilíndricos) encargada de la nutrición de los hongos.
+            span.numero-tarjeta 05
+
+          .tarjeta.bg-white.p-3.shadow-sm(x="33%" y="59.8%" numero="6")
+            .h5.mb-2 Píleo o sombrero:
+            p es la parte del cuerpo fructífero del hongo que sustenta la superficie donde se alojan las esporas.
+            span.numero-tarjeta 06
+
+        div
+          h3.mb-3.titulo-imagen-izq-2 Reproducción
+        p.mb-5 El himenóforo produce millones de esporas que serán liberadas por esporulación y propagadas en la etapa reproductiva del hongo.
+    
+    div
+      h3.mb-3.titulo-imagen-izq-2 Nutrición
+    p.mb-4 Los hongos son de nutrición heterótrofa y obtienen su alimentó por absorción, es decir que se alimentan de materia orgánica muerta o degradada (saprófitos), sustratos vegetales (saprófitos), de sustancias sintetizadas por otros organismos (parásitos) o en asociación con otros seres vivos beneficiándose ambas partes (simbiosis).
+
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img04.jpg')})`}"
+      )
+
+      .bloque-texto-g__texto.p-4
+        p.mb-2.d-block Los hongos del género Pleurotus, pertenecen a los saprófitos, son lignocelulíticos, con una alta capacidad para degradar los materiales ricos en lignina y celulosa. Permitiendo que el cultivo sea bastante económico; pues permite el aprovechamiento de una gran diversidad de desechos agroindustriales como bagazo, tamos de cereales, pulpa de café y aserrín. 
+        p.mb-0.d-block Además, representa una excelente alternativa para su reciclaje:
+
+
+    .row.mb-5
+      .col-lg-7.col-12.mx-auto.mb-4.mb-lg-0
+        SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
+          .bg-beige.tarjeta
+            .row.justify-content-center.mb-0
+                img(src='@/assets/curso/temas/tema1/img08.jpg' alt='AvatarTop')
+            p.text-center.p-4.mb-0
+              b Caña de azucar:
+
+          .bg-beige.tarjeta
+            .row.justify-content-center.mb-0
+                img(src='@/assets/curso/temas/tema1/img09.jpg' alt='AvatarTop')
+            p.text-center.p-4.mb-0
+              b Cascarilla de café:
+
+          .bg-beige.tarjeta
+            .row.justify-content-center.mb-0
+                img(src='@/assets/curso/temas/tema1/img10.jpg' alt='AvatarTop')
+            p.text-center.p-4.mb-0
+              b La paja, alfalfa y forraje:
+      .col-lg-5.col-8.mx-auto
+        figure
+          img(src='@/assets/curso/temas/tema1/img07.png', alt='Imagen Decorativa')
+      
+
+    div
+      h3.mb-3.titulo-imagen-izq-1 Factores físicos requeridos para el desarrollo de los hongos 
+    p.mb-5 El proceso de crecimiento de los hongos de orellana se puede ver afectados además de los factores nutricionales, por factores físicos, que varían dependiendo de la etapa de desarrollo del hongo, los que deben ser controlados tales como:
+    
 </template>
 
 <script>
