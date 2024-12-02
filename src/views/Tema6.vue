@@ -17,31 +17,31 @@
             p.mb-0 Asimismo, se recomienda que los sustratos no tengan presencia de algunos compuestos procedentes de fumigaciones o malos manejos que pueden afectar el desarrollo del cultivo, de allí la importancia de conocer la trazabilidad de los mismos.
 
           .row.align-items-center
-            .col-lg-2.col-12
+            .col-sm-12.col-lg-3
               h3 Acidez:
               p.mb-3 Los hongos requieren de sustratos de pH ligeramente ácidos a neutros de 6-7.
-            .col-lg-10.col-12
-              img.tarjeta(src='@/assets/curso/temas/tema6/img02.jpg' alt='Imagen Decorativa')
+            .col-sm-12.col-lg-9
+              img.tarjeta.img-t(src='@/assets/curso/temas/tema6/img02.jpg' alt='Imagen Decorativa')
             
           .row
-            .col-lg-3.col-12
+            .col-sm-12.col-lg-3
               h3 Aireación:	
               p.mb-3 Los hongos son organismos aeróbicos, por lo cual requiere la circulación de aire al interior del sustrato; por consiguiente, los sustratos no se deben compactar fácilmente.
-            .col-lg-9.col-12
+            .col-sm-12.col-lg-9
               img.tarjeta(src='@/assets/curso/temas/tema6/img03.jpg' alt='Imagen Decorativa')
         
           .row
-            .col-lg-7.col-12
+            .col-sm-12.col-lg-7
               h3 Humedad:
               p.mb-3 Es importante que los materiales a utilizar como sustratos sean frescos (pulpa de café) o estén deshidratados hasta una humedad aproximada del 12 %, para evitar los procesos de descomposición. Se recomienda que no haya estado expuesta a la lluvia y a la humedad. Estos deben tener una buena capacidad de retención de la humedad deseada en el proceso del cultivo que es entre un 70 - 80 %.
-            .col-lg-5.col-12
+            .col-sm-12.col-lg-5
               img.tarjeta(src='@/assets/curso/temas/tema6/img04.jpg' alt='Imagen Decorativa')
 
     div
       h3.mb-4.titulo-imagen-izq-1 Adecuación del sustrato
 
     .row.mb-5
-      .col-md-4.col-8.mx-auto.mb-4.mb-lg-0
+      .col-md-7.col-8.mx-auto.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema6/img01.png' alt='Imagen Decorativa')
       .col-lg-8
         p.mb-3 Consiste en la adecuación de los materiales del sustrato en cuanto al tamaño de las partículas y su forma de almacenamiento.

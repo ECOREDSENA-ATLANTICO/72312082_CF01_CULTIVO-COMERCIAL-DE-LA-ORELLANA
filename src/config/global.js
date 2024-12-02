@@ -134,7 +134,7 @@ export default {
       tema: 'Introducción a los sustratos',
       referencia: 'Agroequipos Del Valle (2024)',
       tipo: 'Página <em>web</em>',
-      descarga: 'https://www.agroequipos.com.mx/node/1687',
+      link: 'https://www.agroequipos.com.mx/node/1687',
     },
   ],
   glosario: [

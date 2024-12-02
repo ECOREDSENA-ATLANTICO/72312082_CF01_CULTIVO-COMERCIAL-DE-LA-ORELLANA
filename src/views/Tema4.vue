@@ -62,17 +62,17 @@
     .tarjeta.p-4.bg_texture
       .tarjeta.bg-white.p-5 
         SlyderA(tipo="b")
-          div.mb-2
+          .mb-2
             h3.mb-3 Preparación del sustrato
             .row.pt-4.azul
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b Materiales
                   p.text-center Residuos agrícolas ricos en lignina y celulosa (pajas, bagazo, tamos de cereales, pulpa de café y aserrín).<br>Cal agrícola o yeso agrícola. Tulas o costales.
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
@@ -80,7 +80,7 @@
                   p.text-center Estufa u hogar.<br> Termómetro.
 
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
@@ -88,7 +88,7 @@
                   p.text-center Machete o trituradora.<br>Recipiente metálico resistente al calor de capacidad de acuerdo a la cantidad de sustrato.
 
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
@@ -96,35 +96,35 @@
                   p.text-center Tapabocas con respirador. Guantes. Delantal plástico industrial. Botas de caucho antideslizantes.
 
 
-              .col-xs-12.col-md.mb-5.mb-xl-0
+              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 div.h-100.w-100.tarjeta(
                   :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img10.png')})`,'background-size':`cover`,'min-height':`200px`}"
                 )
-          div.mb-2
+          .mb-2
             h3 Inoculación o siembra
             .row.pt-4.naranja
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b Materiales
                   p.text-center Sustrato pasteurizado. Semilla o inóculo del hongo. Solución desinfectante. Bolsas de plástico transparente. Solución desinfectante.
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b Equipos
                   p.text-center Mechero.
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b Herramientas
                   p.text-center Navaja o tijeras. Delantal plástico industrial.Botas de caucho antideslizantes
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
@@ -132,51 +132,51 @@
                   p.text-center  Elementos de protección personal Gorro o cofia. Tapabocas con filtro respirador. Guantes de nitrilo. Bata antifluidos. Botas de caucho antideslizantes.
 
                   
-              .col-xs-12.col-md.mb-5.mb-xl-0
+              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 div.h-100.w-100.tarjeta(
                   :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img11.png')})`,'background-size':`cover`,'min-height':`200px`}"
                 )
 
-          div.mb-2
+          .mb-2
             h3 Incubación y fructificación
             .row.pt-4.verde
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b Materiales
                   p.text-center Estantes.
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b Equipos
                   p.text-center Sistemas de ventilación. Higrómetro (medidor de humedad relativa).
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b Herramientas
                   p.text-center Termómetro.
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b  Elementos de protección personal
                   p.text-center Elementos de protección personal. Gorro o cofia. Tapabocas con filtro respirador. Guantes de nitrilo. Bata antifluido. Botas de caucho antideslizantes.
 
-              .col-xs-12.col-md.mb-5.mb-xl-0
+              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 div.h-100.w-100.tarjeta(
                   :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img12.png')})`,'background-size':`cover`,'min-height':`200px`}"
                 )
 
-          div.mb-2
+          .mb-2
             h3 Cosecha y poscosecha
             .row.pt-4.amarillo
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
@@ -184,28 +184,28 @@
                   p.text-center Plástico cristaflex. Bolsas de papel kraft. Canastillas plásticas. Bandejas de icopor.
 
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b Equipos
                   p.text-center Gramera o báscula. Sistemas de refrigeración. Sistemas de secado o deshidratación.
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b Herramientas
                   p.text-center Navaja o cuchillo desinfectados.
 
-              .col.mb-5.mb-xl-0
+              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b  Elementos de protección personal
                   p.text-center Gorro. Tapabocas con filtro respirador. Guantes de nitrilo. Bata antifluidos.
               
-              .col-xs-12.col-md.mb-5.mb-xl-0
+              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 div.h-100.w-100.tarjeta(
                   :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img13.png')})`,'background-size':`cover`,'min-height':`200px`}"
                 )
