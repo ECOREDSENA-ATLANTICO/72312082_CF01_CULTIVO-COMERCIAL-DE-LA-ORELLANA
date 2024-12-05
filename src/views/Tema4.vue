@@ -51,7 +51,7 @@
     div
       h3.mb-4.titulo-imagen-izq-1 Uso de materiales, equipamiento y herramientas para el cultivo
 
-    .row.mb-5
+    .row.mb-5.align-items-center
       .col-lg-7
         p.mb-3 Para el desarrollo de las etapas del cultivo se requiere el uso de materiales, equipos y herramientas, que permiten al hombre llevar a cabo procesos en condiciones técnicas optimas y sanitarias adecuadas, de tal manera que se garantice una mejor calidad en el producto y se disminuyan los diferentes riegos a los cuales se verán expuestos durante la operación, por ello realizando una adecuada gestión se promocionan unas condiciones de salud optimas de los operarios y por ende a sus consumidores.
         p.mb-4 De conformidad con lo anterior, se plantea en el siguiente cuadro de materiales, equipos y herramientas necesarios para el desarrollo seguro de las diferentes etapas del cultivo:

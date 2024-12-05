@@ -23,14 +23,14 @@
             .col-sm-12.col-lg-9
               img.tarjeta.img-t(src='@/assets/curso/temas/tema6/img02.jpg' alt='Imagen Decorativa')
             
-          .row
+          .row.align-items-center
             .col-sm-12.col-lg-3
               h3 Aireación:	
               p.mb-3 Los hongos son organismos aeróbicos, por lo cual requiere la circulación de aire al interior del sustrato; por consiguiente, los sustratos no se deben compactar fácilmente.
             .col-sm-12.col-lg-9
               img.tarjeta(src='@/assets/curso/temas/tema6/img03.jpg' alt='Imagen Decorativa')
         
-          .row
+          .row.align-items-center
             .col-sm-12.col-lg-7
               h3 Humedad:
               p.mb-3 Es importante que los materiales a utilizar como sustratos sean frescos (pulpa de café) o estén deshidratados hasta una humedad aproximada del 12 %, para evitar los procesos de descomposición. Se recomienda que no haya estado expuesta a la lluvia y a la humedad. Estos deben tener una buena capacidad de retención de la humedad deseada en el proceso del cultivo que es entre un 70 - 80 %.
@@ -40,8 +40,8 @@
     div
       h3.mb-4.titulo-imagen-izq-1 Adecuación del sustrato
 
-    .row.mb-5
-      .col-md-7.col-8.mx-auto.mb-4.mb-lg-0
+    .row.mb-5.align-items-center
+      .col-lg-4.col-md-7.col-8.mx-auto.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema6/img01.png' alt='Imagen Decorativa')
       .col-lg-8
         p.mb-3 Consiste en la adecuación de los materiales del sustrato en cuanto al tamaño de las partículas y su forma de almacenamiento.
@@ -53,7 +53,7 @@
       p.mb-0 Para el almacenamiento temporal se deben tener en cuenta las siguientes recomendaciones:
 
     .row.mb-5.align-items-center
-      .col-lg-7.col-12.mx-auto.mb-4.mb-lg-0
+      .col-12.col-lg-8.col-xl-7.mx-auto.mb-4.mb-lg-0
         SlyderF.tipoA(columnas="col-lg-6 col-xl-6 col-md-6")
           .bg-gray.tarjeta.p-4
             .h1.mb-1 01
@@ -83,7 +83,7 @@
               .col-6
                 img(src='@/assets/curso/temas/tema6/img08.svg' alt='Imagen Decorativa')
 
-      .col-lg-5
+      .col-8.col-md-6.col-xl-5.mx-auto
         figure
           img(src='@/assets/curso/temas/tema6/img05.png', alt='Imagen Decorativa')
 

@@ -8,10 +8,10 @@
       h1 Generalidades de los hongos 
       
     .row.mb-3
-      .col-12.col-lg-6
+      .col-12.col-xl-6
         p.mb-3 Los hongos no pertenecen al reino de los vegetales, estos pertenecen al reino Fungi, ya que no realizan la fotosíntesis pues carecen de clorofila por lo que son considerados organismos heterótrofos; su pared celular contiene generalmente quitina que le da ese resistente revestimiento exterior al cuerpo de los hongos. Estos se asocian en dos grandes grupos micromicetos y macromicetos, dependiendo de su capacidad para formar estructuras visibles con forma definida o cuerpos fructíferos visibles.
         p.mb-3  Las orellanas u hongo ostra pertenecen al grupo de los macromicetos llamados setas u hongos superiores. 
-      .col-12.col-lg-6.mx-auto
+      .col-8.col-xl-6.mx-auto
         img(src='@/assets/curso/temas/tema1/img01.png' alt='Imagen Decorativa')
 
     .row

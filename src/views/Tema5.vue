@@ -8,9 +8,9 @@
       h1 Introducción a los sustratos
     
     .row.mb-4
-        .col-lg-7
+        .col-lg-12.col-xl-8
           p.mb-4 Los hongos comestibles, adquieren los nutrientes necesarios para su alimentación, de los materiales sobre los cuales crecen, es decir, el medio donde se propaga la semilla del hongo, llamado sustrato. En el caso de las orellanas crecen principalmente en sustratos de residuos vegetales fibrosos o leñosos, ya que poseen la capacidad de degradar celulosa y ligninas presentes en: troncos, bagazos, virutas, aserrines, restos de leguminosas, pajas, rastrojos, tamos de cereales, heno, fibra de coco, cascarillas de granos, entre otros. Esto indica que existe una amplia gama de residuos en los cuales se puede producir la orellana y una facilidad para la obtención de los mismos.
-        .col-md-8.col-10.mx-auto.mb-4.mb-lg-0
+        .col-12.col-sm-10.col-lg-8.mx-auto.mb-4.mb-lg-0
           img(src='@/assets/curso/temas/tema5/img02.png' alt='Imagen Decorativa')
     .row
       .col-10.mx-auto
