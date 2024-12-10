@@ -13,7 +13,7 @@
 
     figure.mb-5
         .video
-          <iframe width="853" height="480" src="https://www.youtube.com/embed/4ghDpL7vTdg?si=7N-RRTiH-Qj6qd3g" title="Conceptos básicos de hongos y sustratos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="853" height="480" src="https://www.youtube.com/watch?v=6s1LruNZscY" title="Conceptos básicos de hongos y sustratos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         figcaption Video: Sena 2014.
 
 </template>
