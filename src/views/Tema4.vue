@@ -5,217 +5,52 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Etapas del cultivo
-
-    .row.mb-5
-      .col-lg-5.col-8.mx-auto
-        figure
-          img.mb-4(src='@/assets/curso/temas/tema4/img01.png', alt='Imagen Decorativa')
-      .col-lg-7.col-12
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-amarillo-claro")
-          .row(titulo="Obtención de la semilla")
-            .col-md-7.mb-4.mb-md-0
-              p La semilla inicial de los hongos comestibles, es de color blanco, se obtiene a partir de cultivos puros de los hongos, los cuales se encuentran en su fase micelial que se reproducen sobre agares nutritivos, estas semillas son utilizadas posteriormente para inocular los sustratos. La actividad propia de la producción de la semilla del hongo es muy delicada y requiere especiales técnicos para evitar riesgo de pérdida del material principalmente por la aparición de hongos competidores, por lo que normalmente se lleva a cabo en laboratorio. Por lo anterior se recomienda a los pequeños productores obtener la semilla en laboratorios certificados.
-            .col-md-5
-              figure
-                img.tarjeta(src='@/assets/curso/temas/tema4/img02.jpg', alt='Imagen Decorativa')
-
-          .row(titulo="Preparación del sustrato")
-            .col-md-5.mb-4.mb-md-0
-              p Consiste en seleccionar y adecuar el medio de crecimiento (sustrato) para proporcionar las condiciones de asepsia, humedad y nutrición adecuadas para que el hongo de orellana se desarrolle.
-            .col-md-7
-              figure
-                img.tarjeta(src='@/assets/curso/temas/tema4/img03.jpg', alt='Imagen Decorativa')
-
-          .row(titulo="Inoculación o siembra")
-            .col-md-6.mb-4.mb-md-0
-              p La inoculación consiste en agregar la semilla o micelio del hongo al sustrato definitivo en donde se va a desarrollar. El sustrato inoculado se acondiciona en bolsas, donde crecerá el micelio y emergerán finalmente los cuerpos fructíferos o carpóforos.
-            .col-md-6
-              figure
-                img.tarjeta(src='@/assets/curso/temas/tema4/img04.jpg', alt='Imagen Decorativa')
-
-          .row(titulo="Incubación")
-            .col-md-6.mb-4.mb-md-0
-              p Durante esta etapa la semilla del hongo se desarrolla invadiendo el sustrato poco a poco, tornándose de color blanco, hasta que todo el sustrato termina completamente invadido por el hongo, e inicia la formación de los primordios de los hongos.
-            .col-md-6
-              figure
-                img.tarjeta(src='@/assets/curso/temas/tema4/img05.jpg', alt='Imagen Decorativa')
-
-          .row(titulo="Fructificación")
-            .col-md-6.mb-4.mb-md-0
-              p Una vez el micelio haya invadido el sustrato, se da inicio a la etapa de producción o fructificación la cual inicia con el brote y crecimiento de los primordios.
-            .col-md-6
-              figure
-                img.tarjeta(src='@/assets/curso/temas/tema4/img06.jpg', alt='Imagen Decorativa')
+      h1 Introducción a los sustratos
     
-    div
-      h3.mb-4.titulo-imagen-izq-1 Uso de materiales, equipamiento y herramientas para el cultivo
+    .row.mb-4
+        .col-xl-8.col-lg-12
+          p.mb-4 Los hongos comestibles, adquieren los nutrientes necesarios para su alimentación, de los materiales sobre los cuales crecen, es decir, el medio donde se propaga la semilla del hongo, llamado sustrato. En el caso de las orellanas crecen principalmente en sustratos de residuos vegetales fibrosos o leñosos, ya que poseen la capacidad de degradar celulosa y ligninas presentes en: troncos, bagazos, virutas, aserrines, restos de leguminosas, pajas, rastrojos, tamos de cereales, heno, fibra de coco, cascarillas de granos, entre otros. Esto indica que existe una amplia gama de residuos en los cuales se puede producir la orellana y una facilidad para la obtención de los mismos.
+        .col-12.col-xl-4.col-sm-10.col-lg-8.mx-auto.mb-4.mb-lg-0
+          img(src='@/assets/curso/temas/tema5/img02.png' alt='Imagen Decorativa')
+    .row
+      .col-10.mx-auto
+        
+        .titulo-sexto.color-adicional-1.mb-4
+          h5 Figura 4.
+          span Tipos de sustratos.
 
-    .row.mb-5.align-items-center
-      .col-lg-7
-        p.mb-3 Para el desarrollo de las etapas del cultivo se requiere el uso de materiales, equipos y herramientas, que permiten al hombre llevar a cabo procesos en condiciones técnicas optimas y sanitarias adecuadas, de tal manera que se garantice una mejor calidad en el producto y se disminuyan los diferentes riegos a los cuales se verán expuestos durante la operación, por ello realizando una adecuada gestión se promocionan unas condiciones de salud optimas de los operarios y por ende a sus consumidores.
-        p.mb-4 De conformidad con lo anterior, se plantea en el siguiente cuadro de materiales, equipos y herramientas necesarios para el desarrollo seguro de las diferentes etapas del cultivo:
-      .col-lg-5.col-10.mx-auto.mb-4.mb-lg-0
-        img(src='@/assets/curso/temas/tema4/img07.png' alt='Imagen Decorativa')
+        figure.mb-5
+          img(src='@/assets/curso/temas/tema5/img01.png', alt='Texto que describa la imagen')
+          figcaption Nota. Mauricio Benavides, conoce los tipos de sustratos para tu cultivo hidropónico (2017).
 
-    
-    .tarjeta.p-4.bg_texture
-      .tarjeta.bg-white.p-5 
-        SlyderA(tipo="b")
-          .mb-2
-            h3.mb-3 Preparación del sustrato
-            .row.pt-4.azul
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Materiales
-                  p.text-center Residuos agrícolas ricos en lignina y celulosa (pajas, bagazo, tamos de cereales, pulpa de café y aserrín).<br>Cal agrícola o yeso agrícola. Tulas o costales.
+        .cajon.color-acento-contenido.p-4.mb-5
+          p.mb-0 Los sustratos cumplen una función muy importante en el desarrollo óptimo del cultivo, por lo cual debe cumplir con las condiciones necesarias, pues allí se alimentará el hongo hasta el final de su ciclo; luego, de la calidad del sustrato redunda la productividad, convirtiéndose en uno de los factores más importantes en el éxito del cultivo.
+   
+        div
+          h3.mb-4.titulo-imagen-izq-1 Criterios para la selección del sustrato
+        
+        p.mb-3 Para seleccionar el sustrato ideal para el cultivo de hongos Orellana, es crucial considerar su composición nutricional y física. Debe ser rico en nutrientes como nitrógeno y carbono, con una textura que facilite la retención de agua y el intercambio gaseoso. La esterilización adecuada y la ausencia de contaminantes son también criterios fundamentales para asegurar un ambiente propicio para su crecimiento óptimo. 
+        p.mb-5 Para la selección del sustrato, es necesario conocer:
 
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Equipos
-                  p.text-center Estufa u hogar.<br> Termómetro.
-
-
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Herramientas
-                  p.text-center Machete o trituradora.<br>Recipiente metálico resistente al calor de capacidad de acuerdo a la cantidad de sustrato.
-
-
-              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b  Elementos de protección personal
-                  p.text-center Tapabocas con respirador. Guantes. Delantal plástico industrial. Botas de caucho antideslizantes.
-
-
-              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
-                div.h-100.w-100.tarjeta(
-                  :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img10.png')})`,'background-size':`cover`,'min-height':`200px`}"
-                )
-          .mb-2
-            h3 Inoculación o siembra
-            .row.pt-4.naranja
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Materiales
-                  p.text-center Sustrato pasteurizado. Semilla o inóculo del hongo. Solución desinfectante. Bolsas de plástico transparente. Solución desinfectante.
-
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Equipos
-                  p.text-center Mechero.
-
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Herramientas
-                  p.text-center Navaja o tijeras. Delantal plástico industrial.Botas de caucho antideslizantes
-
-              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b  Elementos de protección personal
-                  p.text-center  Elementos de protección personal Gorro o cofia. Tapabocas con filtro respirador. Guantes de nitrilo. Bata antifluidos. Botas de caucho antideslizantes.
-
-                  
-              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
-                div.h-100.w-100.tarjeta(
-                  :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img11.png')})`,'background-size':`cover`,'min-height':`200px`}"
-                )
-
-          .mb-2
-            h3 Incubación y fructificación
-            .row.pt-4.verde
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Materiales
-                  p.text-center Estantes.
-
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Equipos
-                  p.text-center Sistemas de ventilación. Higrómetro (medidor de humedad relativa).
-
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Herramientas
-                  p.text-center Termómetro.
-
-              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b  Elementos de protección personal
-                  p.text-center Elementos de protección personal. Gorro o cofia. Tapabocas con filtro respirador. Guantes de nitrilo. Bata antifluido. Botas de caucho antideslizantes.
-
-              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
-                div.h-100.w-100.tarjeta(
-                  :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img12.png')})`,'background-size':`cover`,'min-height':`200px`}"
-                )
-
-          .mb-2
-            h3 Cosecha y poscosecha
-            .row.pt-4.amarillo
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Materiales
-                  p.text-center Plástico cristaflex. Bolsas de papel kraft. Canastillas plásticas. Bandejas de icopor.
-
-
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Equipos
-                  p.text-center Gramera o báscula. Sistemas de refrigeración. Sistemas de secado o deshidratación.
-
-              .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b Herramientas
-                  p.text-center Navaja o cuchillo desinfectados.
-
-              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
-                .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
-                  .tarjeta-texto__txt
-                    p.text-center
-                      b  Elementos de protección personal
-                  p.text-center Gorro. Tapabocas con filtro respirador. Guantes de nitrilo. Bata antifluidos.
-              
-              .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
-                div.h-100.w-100.tarjeta(
-                  :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img13.png')})`,'background-size':`cover`,'min-height':`200px`}"
-                )
-
-
+    .bloque-texto-g.color-beige.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img03.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        div.mb-0 
+          ul.bullets
+            li La cantidad y disponibilidad del material en la zona del cultivo.
+            li Las características fisicoquímicas.
+            li La trazabilidad.
+            li La localización.
+            li La facilidad de transporte.
+            li El precio que sea de fácil adquisición.
+            li La capacidad de almacenamiento de los materiales.
 </template>
 
 <script>
 export default {
-  name: 'Tema4',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
   }),
