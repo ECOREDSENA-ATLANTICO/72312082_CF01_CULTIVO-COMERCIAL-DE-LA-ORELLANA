@@ -2,10 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 5
-      h1 Características y composición de los sustratos 
+      h1(data-aos="fade-right") Características y composición de los sustratos 
 
 
     .tarjeta.p-4.bg_texture.mb-5
@@ -37,10 +37,10 @@
             .col-sm-12.col-lg-5
               img.tarjeta(src='@/assets/curso/temas/tema6/img04.jpg' alt='Imagen Decorativa')
 
-    div
+    div(data-aos="fade-right")
       h3.mb-4.titulo-imagen-izq-1 Adecuación del sustrato
 
-    .row.mb-5.align-items-center
+    .row.mb-5.align-items-center(data-aos="fade-left")
       .col-lg-4.col-md-7.col-8.mx-auto.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema6/img01.png' alt='Imagen Decorativa')
       .col-lg-8
@@ -52,7 +52,7 @@
       p.mb-3 Luego se homogenizan los materiales mezclando de manera uniforme las materias primas a utilizar  como sustratos. Si estos no están secos (caso de los tamos, virutas, bagazos y aserrines) y no se van a utilizar inmediatamente, se deben secar al sol previamente hasta obtener una humedad  aproximada del 13%, seguidamente se empacan en costales de fibra limpios y se almacenan temporalmente para luego recibir el respectivo tratamiento.
       p.mb-0 Para el almacenamiento temporal se deben tener en cuenta las siguientes recomendaciones:
 
-    .row.mb-5.align-items-center
+    .row.mb-5.align-items-center(data-aos="fade-right")
       .col-12.col-lg-8.col-xl-7.mx-auto.mb-4.mb-lg-0
         SlyderF.tipoA(columnas="col-lg-6 col-xl-6 col-md-6")
           .bg-gray.tarjeta.p-4

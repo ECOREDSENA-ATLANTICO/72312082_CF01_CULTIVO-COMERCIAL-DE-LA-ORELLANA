@@ -2,41 +2,41 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 1
-      h1 Generalidades de los hongos 
+      h1(data-aos="fade-right") Generalidades de los hongos 
       
     .row.mb-3
-      .col-12.col-xl-6
+      .col-12.col-xl-6(data-aos="fade-right")
         p.mb-3 Los hongos no pertenecen al reino de los vegetales, estos pertenecen al reino Fungi, ya que no realizan la fotosíntesis pues carecen de clorofila por lo que son considerados organismos heterótrofos; su pared celular contiene generalmente quitina que le da ese resistente revestimiento exterior al cuerpo de los hongos. Estos se asocian en dos grandes grupos micromicetos y macromicetos, dependiendo de su capacidad para formar estructuras visibles con forma definida o cuerpos fructíferos visibles.
         p.mb-3  Las orellanas u hongo ostra pertenecen al grupo de los macromicetos llamados setas u hongos superiores. 
-      .col-8.col-xl-6.mx-auto
+      .col-8.col-xl-6.mx-auto(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img01.png' alt='Imagen Decorativa')
 
     .row
       .col-12.col-md-10.mx-auto
-        div
+        div(data-aos="fade-left")
           h3.mb-3.titulo-imagen-izq-1 Morfología
-        p.mb-4 Presentan una estructura filamentosa, constituida por una red de filamentos con apariencia de hilos llamados hifas, que forman el cuerpo vegetativo del hongo llamado micelio (similar a las raíces de las plantas). Además, tiene partes como micelio, cuerpos fructíferos y sombrero. Así como se muestra a continuación: 
+        p.mb-4(data-aos="fade-left") Presentan una estructura filamentosa, constituida por una red de filamentos con apariencia de hilos llamados hifas, que forman el cuerpo vegetativo del hongo llamado micelio (similar a las raíces de las plantas). Además, tiene partes como micelio, cuerpos fructíferos y sombrero. Así como se muestra a continuación: 
       
-        .titulo-sexto.color-adicional-1.mb-4
+        .titulo-sexto.color-adicional-1.mb-4(data-aos="fade-left")
           h5 Figura 1.
           span Partes de los hongos
 
-        figure.mb-5
+        figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema1/img05.png', alt='Texto que describa la imagen')
           figcaption Nota. www3.gobiernodecanarias.org (2017)
         
-        div
+        div(data-aos="fade-right")
           h3.mb-3.titulo-imagen-izq-2 Partes de la Orellana
-        p.mb-3 Los hongos orellana, son importantes por su valor ecológico, nutricional y medicinal. Desempeñan un papel esencial en la descomposición de materia orgánica, contribuyendo al reciclaje de nutrientes en los ecosistemas.
+        p.mb-3(data-aos="fade-right") Los hongos orellana, son importantes por su valor ecológico, nutricional y medicinal. Desempeñan un papel esencial en la descomposición de materia orgánica, contribuyendo al reciclaje de nutrientes en los ecosistemas.
         
-        .titulo-sexto.color-adicional-1.mb-4
+        .titulo-sexto.color-adicional-1.mb-4(data-aos="fade-right")
           h5 Figura 2.
           span Partes de la orellana (Pleurotus ssp).
 
-        ImagenInfografica.color-primario.mb-5
+        ImagenInfografica.color-primario.mb-5(data-aos="fade-right")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/img06.png', alt='Texto que describa la imagen')
@@ -80,17 +80,16 @@
       h3.mb-3.titulo-imagen-izq-2 Nutrición
     p.mb-4 Los hongos son de nutrición heterótrofa y obtienen su alimentó por absorción, es decir que se alimentan de materia orgánica muerta o degradada (saprófitos), sustratos vegetales (saprófitos), de sustancias sintetizadas por otros organismos (parásitos) o en asociación con otros seres vivos beneficiándose ambas partes (simbiosis).
 
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img04.jpg')})`}"
       )
-
       .bloque-texto-g__texto.p-4
         p.mb-2.d-block Los hongos del género Pleurotus, pertenecen a los saprófitos, son lignocelulíticos, con una alta capacidad para degradar los materiales ricos en lignina y celulosa. Permitiendo que el cultivo sea bastante económico; pues permite el aprovechamiento de una gran diversidad de desechos agroindustriales como bagazo, tamos de cereales, pulpa de café y aserrín.
         p.mb-0.d-block Además, representa una excelente alternativa para su reciclaje. A continuación, se describen de manera detallada.
 
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-lg-7.col-12.mx-auto.mb-4.mb-lg-0
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
           .bg-beige.tarjeta
@@ -126,11 +125,11 @@
     p.mb-5 El proceso de crecimiento de los hongos de orellana se puede ver afectados además de los factores nutricionales, por factores físicos, que varían dependiendo de la etapa de desarrollo del hongo, los que deben ser controlados tales como:
     
     .row.mb-5
-      .col-xl-5.col-md-7.col-8.mb-3.mx-auto
+      .col-xl-5.col-md-7.col-8.mb-3.mx-auto(data-aos="fade-left")
        figure
           img(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen Decorativa')
       
-      .col-xl-7.col-md-12.col-12.mx-auto
+      .col-xl-7.col-md-12.col-12.mx-auto(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-amarillo-claro")
           .row(titulo="La temperatura")
             .col-md-10.mb-4.mb-md-0

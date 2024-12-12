@@ -2,10 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 4
-      h1 Introducción a los sustratos
+      h1(data-aos="fade-right") Introducción a los sustratos
     
     .row.mb-4
         .col-xl-8.col-lg-12
@@ -15,24 +15,24 @@
     .row
       .col-10.mx-auto
         
-        .titulo-sexto.color-adicional-1.mb-4
+        .titulo-sexto.color-adicional-1.mb-4(data-aos="fade-left")
           h5 Figura 4.
           span Tipos de sustratos.
 
-        figure.mb-5
+        figure.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema5/img01.png', alt='Texto que describa la imagen')
           figcaption Nota. Mauricio Benavides, conoce los tipos de sustratos para tu cultivo hidropónico (2017).
 
         .cajon.color-acento-contenido.p-4.mb-5
           p.mb-0 Los sustratos cumplen una función muy importante en el desarrollo óptimo del cultivo, por lo cual debe cumplir con las condiciones necesarias, pues allí se alimentará el hongo hasta el final de su ciclo; luego, de la calidad del sustrato redunda la productividad, convirtiéndose en uno de los factores más importantes en el éxito del cultivo.
    
-        div
+        div(data-aos="fade-left")
           h3.mb-4.titulo-imagen-izq-1 Criterios para la selección del sustrato
         
         p.mb-3 Para seleccionar el sustrato ideal para el cultivo de hongos Orellana, es crucial considerar su composición nutricional y física. Debe ser rico en nutrientes como nitrógeno y carbono, con una textura que facilite la retención de agua y el intercambio gaseoso. La esterilización adecuada y la ausencia de contaminantes son también criterios fundamentales para asegurar un ambiente propicio para su crecimiento óptimo. 
         p.mb-5 Para la selección del sustrato, es necesario conocer:
 
-    .bloque-texto-g.color-beige.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-beige.p-3.p-sm-4.p-md-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img03.jpg')})`}"
       )
