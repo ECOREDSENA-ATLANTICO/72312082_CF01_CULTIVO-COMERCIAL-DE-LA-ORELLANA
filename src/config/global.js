@@ -102,7 +102,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF01_72312082_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -210,9 +210,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Miguel De Jesús Paredes Maestre',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial - Regional Atlántico',
         },
       ],
     },
@@ -220,9 +221,10 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Gilberto Herrera Delgans',
+          cargo: 'Evaluador instruccional',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial - Regional Atlántico',
         },
       ],
     },
@@ -230,24 +232,21 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Antonio Vecino Valero',
+          cargo: 'Diseñor <em>web</em>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Álvaro Guillermo Araújo Angarita',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
       ],
     },
@@ -255,24 +254,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Juan Carlos Cardona Acosta',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
       ],
     },
