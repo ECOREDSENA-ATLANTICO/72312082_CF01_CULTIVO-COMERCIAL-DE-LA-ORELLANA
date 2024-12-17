@@ -16,27 +16,26 @@
         
         p.mb-4(data-aos="fade-right") Es un tratamiento aeróbico aplicado sólo a algunos sustratos ricos en azucares como la pulpa de café y los bagazos frescos, que si no son eliminados pueden generar la presencia de mohos, levaduras o bacterias que compiten  con el hongo de la orellana, impidiendo su crecimiento y desarrollo.
       
-        .titulo-sexto.color-adicional-1.mb-4(data-aos="fade-right")
-          h5 Figura 5.
-          span Fermentación de Sustrato.
+
+        p.mb-3.text-center
+          b Fermentación de Sustrato.
     
         ImagenInfografica.color-primario.mb-5(data-aos="fade-right")
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema7/img01.png', alt='Texto que describa la imagen')
-              figcaption Nota. Mauricio Benavides, conoce los tipos de sustratos para tu cultivo hidropónico (2017).
-
-          .tarjeta.bg-white.p-3(x="20.4%" y="60.4%" numero="1")
+              img(src='@/assets/curso/temas/tema7/img01.png', alt='Muestra la fermentación del sustrato.')
+              
+          .tarjeta.bg-white.p-3(x="20.4%" y="68.4%" numero="1")
             p Para lograr una fermentación homogénea, se debe humedecer con agua el sustrato en 70-75% de humedad y formar un montículo, tapándolo con un plástico para mantener la humedad y el calor. 
 
-          .tarjeta.bg-white.p-3(x="43.75%" y="60.4%" numero="2")
+          .tarjeta.bg-white.p-3(x="43.75%" y="68.4%" numero="2")
             p Luego, se deben realizar volteos cada 3 días para favorecer las condiciones de aireación y la fermentación. Para el caso del bagazo el tiempo de fermentación es de 8-10 días y para la pulpa de café, de 3-5 días. 
 
-          .tarjeta.bg-white.p-3(x="66.1%" y="60.4%" numero="3")
+          .tarjeta.bg-white.p-3(x="66.1%" y="68.4%" numero="3")
             p De esta manera se obtendrá al final de la fermentación un sustrato rico en lignina y celulosa muy similar a las pajas o tamos (Guzmán, Mata, Salmones, Soto, y Guzmán, 2010).
 
         div(data-aos="fade-left")
-          h3.mb-4.titulo-imagen-izq-1 Fermentación
+          h3.mb-4.titulo-imagen-izq-1 Hidratación
         
         p.mb-5 Los sustratos secos como el aserrín, las pajas, los tamos, los bagazos secos, la pulpa de café seca son sometidos a hidratación, sumergiendo los costales de fibra con el sustrato en recipientes con agua por espacio de unas 20 horas hasta alcanzar una humedad del 75 %.
 
@@ -81,14 +80,14 @@
             figure
               img(src='@/assets/curso/temas/tema7/img02.png', alt='Imagen Decorativa')
 
-        p.mb-4 Una vez finalizado la pasteurización, el sustrato selectivo está listo para iniciar el proceso de siembra o inoculación.
+        p.mb-4 Una vez finalizada la pasteurización, el sustrato selectivo está listo para iniciar el proceso de siembra o inoculación.
 
         .titulo-sexto.color-adicional-1.mb-4(data-aos="fade-right")
-          h5 Figura 6.
+          h5 Figura 4.
           span Proceso de inmersión del sustrato
 
         figure.mb-5(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema7/img03.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema7/img03.png', alt='Muestra el proceso de inmersión del sustrato, paso 1: recipiente con agua, malla metálica con paja dentro y calentador de gas, paso 2: se calienta el agua, para mejorar su hidratación, se sumerge el sustrato, paso 3: se ha fomentado el crecimiento óptimo.')
           figcaption Nota. Mauricio Benavides, conoce los tipos de sustratos para tu cultivo hidropónico (2017).).
 
 </template>

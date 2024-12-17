@@ -7,13 +7,13 @@
         span 5
       h1(data-aos="fade-right") Características y composición de los sustratos 
 
-
+    p.mb-4 La selectividad es esencial, por lo que deben considerarse características clave como el contenido de nutrientes, la acidez, la capacidad de aireación y el contenido de humedad. A continuación, se detallan estas características:
     .tarjeta.p-4.bg_texture.mb-5
       .tarjeta.bg-white.p-5 
         SlyderA(tipo="b")
           div
             h3 Nutrientes
-            p El sustrato debe contener los nutrientes necesarios para el crecimiento y desarrollo del hongo tales como: la celulosa, hemicelulosa y lignina, que actúan como fuente principal de carbono y nitrógeno. Aunque también se estima que requiere de otros elementos en menor cantidad como fosforo, potasio, azufre, magnesio, calcio, zinc y cobre (Guarín y Ramírez, 2004).
+            p El sustrato debe contener los nutrientes necesarios para el crecimiento y desarrollo del hongo tales como: la celulosa, hemicelulosa y lignina, que actúan como fuente principal de carbono y nitrógeno. Aunque también se estima que requiere de otros elementos en menor cantidad como fósforo, potasio, azufre, magnesio, calcio, zinc y cobre (Guarín y Ramírez, 2004).
             p.mb-0 Asimismo, se recomienda que los sustratos no tengan presencia de algunos compuestos procedentes de fumigaciones o malos manejos que pueden afectar el desarrollo del cultivo, de allí la importancia de conocer la trazabilidad de los mismos.
 
           .row.align-items-center
@@ -61,7 +61,7 @@
 
           .bg-gray.tarjeta.p-4
             .h1.mb-1 02
-            p Lugar acondicionado con capa de concreto preferiblemente.
+            p Lugar acondicionado con capa de concreto, preferiblemente.
              
           .bg-gray.tarjeta.p-4
             .h1.mb-1 03

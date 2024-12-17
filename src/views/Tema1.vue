@@ -25,22 +25,21 @@
           span Partes de los hongos
 
         figure.mb-5(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema1/img05.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img05.png', alt='Partes de los hongos, muestra la imagen de un hongo, señalando el carpóforo o cuerpo fructífero, el sombrero, pie, himenóforo y micelio.')
           figcaption Nota. www3.gobiernodecanarias.org (2017)
         
         div(data-aos="fade-right")
           h3.mb-3.titulo-imagen-izq-2 Partes de la Orellana
         p.mb-3(data-aos="fade-right") Los hongos orellana, son importantes por su valor ecológico, nutricional y medicinal. Desempeñan un papel esencial en la descomposición de materia orgánica, contribuyendo al reciclaje de nutrientes en los ecosistemas.
         
-        .titulo-sexto.color-adicional-1.mb-4(data-aos="fade-right")
-          h5 Figura 2.
-          span Partes de la orellana (Pleurotus ssp).
+        //- .titulo-sexto.color-adicional-1.mb-4(data-aos="fade-right")
+        //-   h5 Figura 2.
+        //-   span Partes de la orellana (Pleurotus ssp).
 
         ImagenInfografica.color-primario.mb-5(data-aos="fade-right")
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img06.png', alt='Texto que describa la imagen')
-              figcaption Nota. El hongo mágico (2017).
+              img(src='@/assets/curso/temas/tema1/img06.png', alt='Muestra un orellana con sus partes, el cuerpo fructífero o esporocarpo, estipe, pie o pedúnculo, himenio o himenóforo, laminillas, micelio y píleo o sombrero.')
 
           .tarjeta.bg-white.p-3.shadow-sm(x="48.7%" y="76%" numero="1")
             .h5.mb-2 El cuerpo fructífero o esporocarpo:
@@ -72,9 +71,9 @@
             p es la parte del cuerpo fructífero del hongo que sustenta la superficie donde se alojan las esporas.
             span.numero-tarjeta 06
 
-        div
-          h3.mb-3.titulo-imagen-izq-2 Reproducción
-        p.mb-5 El himenóforo produce millones de esporas que serán liberadas por esporulación y propagadas en la etapa reproductiva del hongo.
+    div
+      h3.mb-3.titulo-imagen-izq-2 Reproducción
+    p.mb-5 El himenóforo produce millones de esporas que serán liberadas por esporulación y propagadas en la etapa reproductiva del hongo.
     
     div
       h3.mb-3.titulo-imagen-izq-2 Nutrición
@@ -154,7 +153,7 @@
 
           .row(titulo="La aireación")
             .col-md-10.mb-4.mb-md-0
-              p Es otro factor importante en el desarrollo del hongo, pues estos son organismos aeróbicos, por lo que se debe controlar el nivel de oxígeno y la generación de CO2. El desarrollo vegetativo puede aumentar cuando el nivel de dióxido de carbono se incrementa, como ocurre habitualmente en áreas encerradas debido a las actividades respiratorias del micelio. Por lo anterior, la aireación.
+              p Es otro factor importante en el desarrollo del hongo, pues estos son organismos aeróbicos, por lo que se debe controlar el nivel de oxígeno y la generación de CO<sub>2</sub>. El desarrollo vegetativo puede aumentar cuando el nivel de dióxido de carbono se incrementa, como ocurre habitualmente en áreas encerradas debido a las actividades respiratorias del micelio. Por lo anterior, la aireación.
             .col-md-2.col-5.mx-auto
               figure
                 img.img-t(src='@/assets/curso/temas/tema1/img15.svg', alt='Imagen Descriptiva')

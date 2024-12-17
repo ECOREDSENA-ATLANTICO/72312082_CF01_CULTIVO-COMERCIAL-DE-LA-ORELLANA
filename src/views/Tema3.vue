@@ -7,6 +7,7 @@
         span 3
       h1(data-aos="fade-right") Etapas del cultivo
 
+    p.mb-4 A continuación, se muestran los pasos generales que se deben tener en cuenta al producir hongos comestibles:
     .row.mb-5
       .col-lg-5.col-8.mx-auto
         figure
@@ -70,14 +71,14 @@
                   .tarjeta-texto__txt
                     p.text-center
                       b Materiales
-                  p.text-center Residuos agrícolas ricos en lignina y celulosa (pajas, bagazo, tamos de cereales, pulpa de café y aserrín).<br>Cal agrícola o yeso agrícola. Tulas o costales.
+                  p.text-center Residuos agrícolas ricos en lignina y celulosa (pajas, bagazo, tamos de cereales, pulpa de café y aserrín),<br>cal agrícola o yeso agrícola, tulas o costales.
 
               .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b Equipos
-                  p.text-center Estufa u hogar.<br> Termómetro.
+                  p.text-center Estufa u hogar,<br> termómetro.
 
 
               .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
@@ -85,7 +86,7 @@
                   .tarjeta-texto__txt
                     p.text-center
                       b Herramientas
-                  p.text-center Machete o trituradora.<br>Recipiente metálico resistente al calor de capacidad de acuerdo a la cantidad de sustrato.
+                  p.text-center Machete o trituradora,<br>recipiente metálico resistente al calor de capacidad de acuerdo a la cantidad de sustrato.
 
 
               .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
@@ -93,7 +94,7 @@
                   .tarjeta-texto__txt
                     p.text-center
                       b  Elementos de protección personal
-                  p.text-center Tapabocas con respirador. Guantes. Delantal plástico industrial. Botas de caucho antideslizantes.
+                  p.text-center Tapabocas con respirador, guantes, delantal plástico industrial, botas de caucho antideslizantes.
 
 
               .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
@@ -108,7 +109,7 @@
                   .tarjeta-texto__txt
                     p.text-center
                       b Materiales
-                  p.text-center Sustrato pasteurizado. Semilla o inóculo del hongo. Solución desinfectante. Bolsas de plástico transparente. Solución desinfectante.
+                  p.text-center Sustrato pasteurizado, semilla o inóculo del hongo, solución desinfectante, bolsas de plástico transparente, solución desinfectante.
 
               .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
@@ -122,14 +123,14 @@
                   .tarjeta-texto__txt
                     p.text-center
                       b Herramientas
-                  p.text-center Navaja o tijeras. Delantal plástico industrial.Botas de caucho antideslizantes
+                  p.text-center Navaja o tijeras, delantal plástico industrial, botas de caucho antideslizantes.
 
               .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
                   .tarjeta-texto__txt
                     p.text-center
                       b  Elementos de protección personal
-                  p.text-center  Elementos de protección personal Gorro o cofia. Tapabocas con filtro respirador. Guantes de nitrilo. Bata antifluidos. Botas de caucho antideslizantes.
+                  p.text-center Gorro o cofia, tapabocas con filtro respirador, guantes de nitrilo, bata antifluidos, botas de caucho antideslizantes.
 
                   
               .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
@@ -152,7 +153,7 @@
                   .tarjeta-texto__txt
                     p.text-center
                       b Equipos
-                  p.text-center Sistemas de ventilación. Higrómetro (medidor de humedad relativa).
+                  p.text-center Sistemas de ventilación, higrómetro (medidor de humedad relativa).
 
               .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
@@ -166,7 +167,7 @@
                   .tarjeta-texto__txt
                     p.text-center
                       b  Elementos de protección personal
-                  p.text-center Elementos de protección personal. Gorro o cofia. Tapabocas con filtro respirador. Guantes de nitrilo. Bata antifluido. Botas de caucho antideslizantes.
+                  p.text-center Gorro o cofia, tapabocas con filtro respirador, guantes de nitrilo, bata antifluido, botas de caucho antideslizantes.
 
               .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 div.h-100.w-100.tarjeta(
@@ -183,7 +184,7 @@
                       b Materiales
                   p.text-center Plástico cristaflex. Bolsas de papel 
                     i kraft. 
-                    | Canastillas plásticas. Bandejas de icopor.
+                    | Canastillas plásticas, bandejas de icopor.
 
 
               .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
@@ -191,7 +192,7 @@
                   .tarjeta-texto__txt
                     p.text-center
                       b Equipos
-                  p.text-center Gramera o báscula. Sistemas de refrigeración. Sistemas de secado o deshidratación.
+                  p.text-center Gramera o báscula, sistemas de refrigeración, sistemas de secado o deshidratación.
 
               .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
                 .tarjeta-texto.color-acento-contenido.p-3.pt-5.h-100
@@ -205,7 +206,7 @@
                   .tarjeta-texto__txt
                     p.text-center
                       b  Elementos de protección personal
-                  p.text-center Gorro. Tapabocas con filtro respirador. Guantes de nitrilo. Bata antifluidos.
+                  p.text-center Gorro, tapabocas con filtro respirador, guantes de nitrilo, bata antifluidos.
               
               .col-xl.col-lg-6.col-md-6.col-sm-12.mb-5
                 div.h-100.w-100.tarjeta(

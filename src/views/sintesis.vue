@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra la gráfica de la síntesis del componente formativo conceptos básicos de hongos y sustratos, que incluye generalidades de los hongos, ciclo biológico, clasificación, etapas del cultivo, introducción a los sustratos, características de los sustratos,")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

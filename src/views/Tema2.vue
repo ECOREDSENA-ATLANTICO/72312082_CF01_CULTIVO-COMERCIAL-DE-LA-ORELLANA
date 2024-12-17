@@ -14,11 +14,11 @@
     .row 
       .col-10.mx-auto 
         .titulo-sexto.color-adicional-1.mb-4
-          h5 Figura 3.
-          span Ciclo biológico de la orellana. 
+          h5 Figura 2.
+          span Ciclo biológico del hongo seta. 
     
         figure.mb-5(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema2/img01.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/img01.png', alt='Muestra el ciclo biológico: esporas, hifas, micelió, esporas germinadas, prímordio, velo universal, velo parcial, cuerpo frutífero joven, cuerpo frutífero adulto.')
           figcaption Nota. Morfología de los hongos (2014).
 
 

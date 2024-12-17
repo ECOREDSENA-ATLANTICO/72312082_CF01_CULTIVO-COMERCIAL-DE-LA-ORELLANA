@@ -118,11 +118,11 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Polinización.', esCorrecta: true },
+            { id: 'a', texto: 'Polinización.', esCorrecta: false },
             {
               id: 'b',
               texto: 'Descomposición de materia orgánica.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             { id: 'c', texto: 'Creación de oxígeno.', esCorrecta: false },
             { id: 'd', texto: 'Protección contra plagas.', esCorrecta: false },

@@ -16,11 +16,11 @@
       .col-10.mx-auto
         
         .titulo-sexto.color-adicional-1.mb-4(data-aos="fade-left")
-          h5 Figura 4.
+          h5 Figura 3.
           span Tipos de sustratos.
 
         figure.mb-5(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema5/img01.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema5/img01.png', alt='Muestra los diferentes tipos de sustratos: materiales fibrosos y leñosos, el bagazo, la concha de café y la paja.')
           figcaption Nota. Mauricio Benavides, conoce los tipos de sustratos para tu cultivo hidropónico (2017).
 
         .cajon.color-acento-contenido.p-4.mb-5

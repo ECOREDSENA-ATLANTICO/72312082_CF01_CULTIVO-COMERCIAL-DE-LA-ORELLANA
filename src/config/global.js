@@ -126,7 +126,8 @@ export default {
     },
     {
       tema: 'Introducción a los sustratos',
-      referencia: 'Agroequipos Del Valle (2024)',
+      referencia:
+        'Agroequipos Del Valle. Los sustratos agrícolas y sus propiedades. (2024)',
       tipo: 'Página <em>web</em>',
       link: 'https://www.agroequipos.com.mx/node/1687',
     },
@@ -177,7 +178,7 @@ export default {
     {
       referencia:
         'Fernández, F. (2004). Guía práctica de producción de setas. Guadalajara-México: Fungitec Asesorías.',
-      link: 'https://goo.gl/1UxgpK',
+      link: 'https://setascultivadas.com/manualescultivo.html',
     },
     {
       referencia:
@@ -197,7 +198,7 @@ export default {
     {
       referencia:
         'Rodríguez, N., & Jaramillo, C. (2004). Cultivo de hongos comestibles del género Pleurotus sobre residuos agrícolas de la zona cafetera.',
-      link: 'https://goo.gl/AUhgS8.',
+      link: 'https://cenicafe.org/es/publications/bot027.pdf',
     },
   ],
   creditos: [
@@ -213,7 +214,7 @@ export default {
           nombre: 'Miguel De Jesús Paredes Maestre',
           cargo: 'Responsable de Línea de Producción',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
       ],
     },
@@ -224,7 +225,7 @@ export default {
           nombre: 'Gilberto Herrera Delgans',
           cargo: 'Evaluador instruccional',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
       ],
     },
@@ -253,6 +254,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
+        {
+          nombre: 'Andrea Patiño Villarraga',
+          cargo: 'Experta temática',
+          centro: 'SENA Regional Risaralda',
+        },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
