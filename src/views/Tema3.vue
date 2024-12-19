@@ -182,9 +182,9 @@
                   .tarjeta-texto__txt
                     p.text-center
                       b Materiales
-                  p.text-center Plástico cristaflex. Bolsas de papel 
-                    i kraft. 
-                    | Canastillas plásticas, bandejas de icopor.
+                  p.text-center Plástico cristaflex, bolsas de papel 
+                    i kraft, 
+                    | canastillas plásticas, bandejas de icopor.
 
 
               .col-xl.col-lg-4.col-md-4.col-sm-12.mb-5
